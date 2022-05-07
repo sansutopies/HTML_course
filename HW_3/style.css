@@ -1,0 +1,13 @@
+body {
+    background: #f9f9f9;
+    
+}
+
+.wrapper {
+    width: 1060;
+    border: 1px solid red;
+    height: 100px;
+    margin: 0 auto;
+    background: #fff;
+
+}

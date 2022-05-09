@@ -1,13 +1,43 @@
 body {
     background: #f9f9f9;
-    
 }
 
 .wrapper {
     width: 1060;
-    border: 1px solid red;
-    height: 100px;
     margin: 0 auto;
     background: #fff;
+    padding: 50px 45px 60px;
+}
 
+.logo {
+    display: block;
+    width: 145px;
+    height: 40px;
+}
+
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    background-color: #504f4f;
+    overflow: auto;
+    font-size: 0;
+    margin-top: 40px;
+}
+
+.nav-menu li {  
+    border-right: 1px solid #838388;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.nav-menu a {
+    color: #fff;
+    height: 40px;
+    padding: 0 40px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #434343;
 }
